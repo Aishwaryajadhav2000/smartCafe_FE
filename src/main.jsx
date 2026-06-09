@@ -10,6 +10,7 @@ import Allorders from './pages/Allorders.jsx'
 import AddFood from './pages/AddFood.jsx'
 import Body from './pages/Body.jsx'
 import Loading from './components/Loading.jsx'
+import Food from './components/Food.jsx'
 
 
 const appRouter = createBrowserRouter([
@@ -34,6 +35,11 @@ const appRouter = createBrowserRouter([
         path:'addfood',
         element:<AddFood></AddFood>
       },
+      {
+        path : '/food',
+        element : <Food></Food>
+      },
+      
       {
         path:'/',
         element:<Suspense fallback={<Loading></Loading>}>

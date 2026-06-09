@@ -47,8 +47,8 @@ export default function Header() {
                 <button className="headerBtn" onClick={() => navigate("/neworder")}>
                   New Order
                 </button>
-                <button className="headerBtn" onClick={() => navigate("/addfood")}>
-                  Add Food
+                <button className="headerBtn" onClick={() => navigate("/food")}>
+                  Food
                 </button>
                 <button
                   className="headerBtn bg-red-500 hover:bg-red-600"
